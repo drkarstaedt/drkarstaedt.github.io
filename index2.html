@@ -6,23 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>South Florida Vitality MD</title>
 
-    <meta name="description" content="South Florida Vitality MD specializes in personalized, physician-supervised treatments for weight management, anti-aging, body contouring, and overall health and wellness.">
-    <meta name="keywords" content="medical weight loss, anti-aging treatments, body contouring, health and wellness, laser hair removal, Dr. Alexis Karstaedt">
+    <meta name="description" content="South Florida Vitality MD specializes in personalized, physician-supervised treatments for weight management, anti-aging, holistic medicine, and overall health and wellness.">
+    <meta name="keywords" content="medical weight loss, anti-aging treatments, holistic medicine, health and wellness, GLP-1 treatments, Dr. Alexis Karstaedt">
     <meta name="author" content="South Florida Vitality MD">
-
+    
     <!-- Open Graph (OG) Meta Tags for Social Media -->
     <meta property="og:title" content="South Florida Vitality MD - Your Path to Health & Wellness">
-    <meta property="og:description" content="Achieve your health, wellness, and beauty goals with physician-guided treatments tailored to your needs.">
+    <meta property="og:description" content="Achieve your health, wellness, and beauty goals with physician-guided treatments like GLP-1 therapies, anti-aging solutions, and holistic medicine tailored to your needs.">
     <meta property="og:image" content="images/logo-white.png">
-    <meta property="og:url" content="https://www.sfvitalitymd.com">
+    <meta property="og:url" content="https://www.mdvitality.com">
     <meta property="og:type" content="website">
-
+    
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="South Florida Vitality MD - Your Path to Health & Wellness">
-    <meta name="twitter:description" content="Achieve your health, wellness, and beauty goals with physician-guided treatments tailored to your needs.">
+    <meta name="twitter:description" content="Achieve your health, wellness, and beauty goals with physician-guided treatments like GLP-1 therapies, anti-aging solutions, and holistic medicine tailored to your needs.">
     <meta name="twitter:image" content="images/logo-white.png">
-    <meta name="twitter:url" content="https://www.sfvitalitymd.com">
+    <meta name="twitter:url" content="https://www.mdvitality.com">    
 
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -177,10 +177,6 @@
                             <p>We create comprehensive plans including healthy eating, exercise, and stress management to fit your needs.</p>
                         </li>
                         <li class="mb-3">
-                            <h5><i class="fas fa-tools text-primary mr-2"></i> Top-Notch Equipment</h5>
-                            <p>We utilize Syneron’s proprietary elōs technology, combining radio-frequency and optical energy for effective treatments.</p>
-                        </li>
-                        <li class="mb-3">
                             <h5><i class="fas fa-stethoscope text-primary mr-2"></i> Medical Expertise</h5>
                             <p>All procedures are conducted by Dr. Karstaedt, an experienced medical doctor committed to your well-being.</p>
                         </li>
@@ -200,7 +196,16 @@
                         <img src="images/medical-weight-management.jpg" alt="Medical Weight Loss" class="card-img-top">
                         <div class="card-body">
                             <h5>Medical Weight Loss</h5>
-                            <p>Personalized plans including OPTIFAST meal replacements, appetite suppressants, and lifestyle education.</p>
+                            <p>Personalized plans including appetite suppressants and lifestyle education.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/glp1-treatments.jpg" alt="GLP-1 Treatments" class="card-img-top">
+                        <div class="card-body">
+                            <h5>GLP-1 Treatments</h5>
+                            <p>Medically supervised and individualized treatments using Semaglutide and Tirzepatide for effective weight management.</p>
                         </div>
                     </div>
                 </div>
@@ -213,26 +218,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="images/body-contouring.jpg" alt="Body Contouring" class="card-img-top">
-                        <div class="card-body">
-                            <h5>Body Contouring</h5>
-                            <p>FDA-approved VelaShape™ treatments for cellulite reduction and body reshaping.</p>
-                        </div>
-                    </div>
-                </div>
             </div>
             <div class="row mt-4">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="images/laser-hair-removal.jpg" alt="Laser Hair Removal" class="card-img-top">
-                        <div class="card-body">
-                            <h5>Laser Hair Removal</h5>
-                            <p>Effective and safe hair removal for all skin types using Syneron’s proprietary elōs technology.</p>
-                        </div>
-                    </div>
-                </div>
                 <div class="col-md-4">
                     <div class="card">
                         <img src="images/lifestyle-modification.jpg" alt="Lifestyle Physician Coaching" class="card-img-top">
@@ -248,6 +235,15 @@
                         <div class="card-body">
                             <h5>ALCAT Testing</h5>
                             <p>Identify food sensitivities and develop a plan for better health with detailed test results.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/holistic-medicine.jpg" alt="Holistic Medicine" class="card-img-top">
+                        <div class="card-body">
+                            <h5>Holistic Medicine</h5>
+                            <p>A whole-body approach to health, addressing physical, emotional, and spiritual well-being for optimal healing and wellness.</p>
                         </div>
                     </div>
                 </div>
@@ -269,14 +265,16 @@
 
     <!-- Footer -->
     <footer class="footer py-4 text-center">
-        <p>&copy; 2024 South Florida Vitality MD. All rights reserved.</p>
-    </footer>
+        <p>&copy; <span id="currentYear"></span> South Florida Vitality MD. All rights reserved.</p>
+    </footer>    
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
